@@ -43,5 +43,74 @@ simpleHotel=document.querySelector(".simpleHotel");
 airbnb=document.querySelector(".airbnb");
 friendHouse=document.querySelector(".friend's house");
 
+submitButton=document.querySelector(".submitButton"); 
 
+//Question One//
+justMe.addEventListener('click',function(){
+  mango += 1
+});
+bestFriend.addEventListener('click',function(){
+  passionFruit+=1
+});
+twoPeople.addEventListener('click',function(){
+  lychee+=1 
+});
+threeOrMore.addEventListener('click',function(){
+  dragonfruit+=1 
+});
 
+//Question Two// 
+mountains.addEventListener('click', function(){
+  lychee+=1 
+});
+beach.addEventListener('click',function(){
+  dragonfruit+=1 
+});
+city.addEventListener('click',function(){
+  passionFruit+=1
+});
+home.addEventListener('click',function(){
+  mango+=1 
+});
+
+//Question Three 
+roadTrip.addEventListener('click',function(){
+  lychee+=1 
+});
+plane.addEventListener('click',function(){
+  dragonfruit+=1 
+});
+uber.addEventListener('click',function(){
+  passionFruit+=1 
+});
+walking.addEventListener('click',function(){
+  mango+=1 
+});
+
+//Question Four
+findStay.addEventListener('click',function(){
+  mango+=1 
+});
+explore.addEventListener('click',function(){
+  passionFruit+=1 
+});
+attraction.addEventListener('click',function(){
+  lychee+=1 
+});
+tanning.addEventListener('click',function(){
+  dragonfruit+=1 
+});
+
+//Question Five 
+bestHotel.addEventListener('click',function(){
+  dragonfruit+=1 
+});
+simpleHotel.addEventListener('click',function(){
+  mango+=1 
+});
+airbnb.addEventListener('click',function(){
+  lychee+=1 
+});
+friendHouse.addEventListener('click',function(){
+  passionFruit+=1
+});

@@ -123,4 +123,6 @@ button:hover {
     color: #386641
 }
 
-
+.result{
+    display: none;
+}
