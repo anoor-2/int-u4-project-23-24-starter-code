@@ -13,7 +13,35 @@ buttonImages.forEach(img => {
   img.style.height = Auto;
 });
 
-Q1A1=document.querySelector(".")
+//Question One// 
+justMe=document.querySelector(".justMe");
+bestFriend=document.querySelector(".bestFriend");
+twoPeople=document.querySelector(".twoPeople");
+threeOrMore=document.querySelector(".threeOrMore");
 
-/* document.querySelector(".result").style.display = "block"; */ 
+//Question Two//
+mountains=document.querySelector(".mountains");
+beach=document.querySelector(".tropicalBeach");
+city=document.querySelector(".city");
+home=document.querySelector(".home");
+
+//Question Three//
+roadTrip=document.querySelector(".roadTrip");
+plane=document.querySelector(".plane");
+uber=document.querySelector(".uber");
+walking=document.querySelector(".walking");
+
+//Question Four//
+findStay=document.querySelector("findStay");
+explore=document.querySelector("explore");
+attraction=document.querySelector(".attraction");
+tanning=document.querySelector(".tan"); 
+
+//Question Five//
+bestHotel=document.querySelector(".bestHotel");
+simpleHotel=document.querySelector(".simpleHotel");
+airbnb=document.querySelector(".airbnb");
+friendHouse=document.querySelector(".friend's house");
+
+
 
