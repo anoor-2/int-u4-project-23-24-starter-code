@@ -8,10 +8,10 @@ let dragonfruit=0
 const buttonImages = document.querySelectorAll("button img");
 
 // Loop through them and set new size
-buttonImages.forEach(img => {
-  img.style.width = Max;
-  img.style.height = Auto;
-});
+// buttonImages.forEach(img => {
+//   img.style.width = "100px"
+//   img.style.height = Auto;
+// });
 
 //Question One// 
 justMe=document.querySelector(".justMe");
@@ -32,8 +32,8 @@ uber=document.querySelector(".uber");
 walking=document.querySelector(".walking");
 
 //Question Four//
-findStay=document.querySelector("findStay");
-explore=document.querySelector("explore");
+findStay=document.querySelector(".findStay");
+explore=document.querySelector(".explore");
 attraction=document.querySelector(".attraction");
 tanning=document.querySelector(".tan"); 
 
@@ -41,9 +41,7 @@ tanning=document.querySelector(".tan");
 bestHotel=document.querySelector(".bestHotel");
 simpleHotel=document.querySelector(".simpleHotel");
 airbnb=document.querySelector(".airbnb");
-friendHouse=document.querySelector(".friend's house");
-
-submitButton=document.querySelector(".submitButton"); 
+friendHouse=document.querySelector(".friendsHouse");
 
 //Question One//
 justMe.addEventListener('click',function(){
@@ -114,3 +112,33 @@ airbnb.addEventListener('click',function(){
 friendHouse.addEventListener('click',function(){
   passionFruit+=1
 });
+
+finalMango=document.querySelector(".Mango"); 
+finalpassionfruit=document.querySelector('.passionFruit');
+finallychee=document.querySelector('.Lychee');
+finaldragonFruit=document.querySelector(".dragonFruit");
+finalpineapple=document.querySelector(".pineapple")
+
+submitButton=document.querySelector(".submitButton"); 
+submitButton.addEventListener('click',function(){
+  if (mango > lychee && mango > dragonfruit && mango > passionFruit) {
+    finalMango.style.display = "block";
+  }
+
+  else if(lychee>mango && lychee>dragonfruit && lychee>passionFruit) {
+    finalLychee.style.display="block";
+  }
+
+  else if (passionFruit>mango && passionFruit>lychee && passionFruit>dragonfruit){
+    finalpassionfruit.style.display="block";
+  }
+
+  else if(dragonfruit>mango && dragonfruit>passionFruit && dragonfruit>lychee){
+    finaldragonFruit.style.display="block";
+  }
+
+  else{
+    finalpineapple.style.display="block";
+  }
+
+}); 

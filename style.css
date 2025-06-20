@@ -123,6 +123,22 @@ button:hover {
     color: #386641
 }
 
-.result{
+.Mango{
     display: none;
+}
+
+.passionFruit{
+    display:none; 
+}
+
+.Lychee{
+    display:none; 
+}
+
+.dragonFruit{
+    display: none; 
+}
+
+.pineapple{
+    display:none; 
 }
