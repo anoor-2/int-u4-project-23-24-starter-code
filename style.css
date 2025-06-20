@@ -1,44 +1,126 @@
 /* General body styling */
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+  background-color: #cdd993;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal centering */
+  text-align: center;
+  /* REMOVE justify-content and height *//* center text inside elements */
+ 
 }
 
 /* Title section styling */
 .title h1 {
+    font-family: "Gravias", serif;
+    font-weight: bold;
+    font-style: normal;
     text-align: center;
-    color: #333;
+    color: #386641;
+    text-align: center;
+}
+
+.titleImage {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
 }
 
 /* Questions section styling */
-.questions {
-    background-color: #fff;
+.Q1 {
+    background-color: #f6f0df;
     margin: 20px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.questions h4 {
-    color: #666;
+.Q2 {
+    background-color: #f6f0df;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Q3 {
+    background-color: #f6f0df;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.questions img {
-    width: 100%; /* Make images responsive */
-    height: auto;
+.Q4 {
+    background-color: #f6f0df;
+    margin: 20px;
+    padding: 20px;
     border-radius: 8px;
-    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Q5 {
+    background-color: #f6f0df;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questions h3 {
+    color: #386641;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Result section styling */
 .result {
-    background-color: #e2e2e2;
+    background-color:#a7c957;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+    color:#386641
 }
+
+.result img {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button img {
+  width: 100px;   /* Increase or decrease as you like */
+  height: 100px;
+  object-fit: cover; /* Keeps it neat */
+ border-radius: 4px;  /* Optional: make it rounded or circular */
+}
+
+button{
+    background-color:#a7c957;
+    font-family:"arial";
+    color: #386641;
+    border-color:#6a994e; 
+    margin: 7px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* the spacing between text and image */
+  padding: 10px 15px;
+}
+
+button:hover {
+    background-color:#688f36;
+    color: #dce7a1/* Text color changes to red */
+}
+
+.description{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #386641
+}
+
+
