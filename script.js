@@ -125,7 +125,7 @@ submitButton.addEventListener('click',function(){
     finalMango.style.display = "block";
   }
   else if(lychee>mango && lychee>dragonfruit && lychee>passionFruit) {
-    finalLychee.style.display="block";
+    finallychee.style.display="block";
   }
 
   else if (passionFruit>mango && passionFruit>lychee && passionFruit>dragonfruit){
