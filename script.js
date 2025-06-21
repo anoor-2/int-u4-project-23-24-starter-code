@@ -124,7 +124,6 @@ submitButton.addEventListener('click',function(){
   if (mango > lychee && mango > dragonfruit && mango > passionFruit) {
     finalMango.style.display = "block";
   }
-
   else if(lychee>mango && lychee>dragonfruit && lychee>passionFruit) {
     finalLychee.style.display="block";
   }
@@ -136,9 +135,7 @@ submitButton.addEventListener('click',function(){
   else if(dragonfruit>mango && dragonfruit>passionFruit && dragonfruit>lychee){
     finaldragonFruit.style.display="block";
   }
-
   else{
     finalpineapple.style.display="block";
   }
-
 }); 
